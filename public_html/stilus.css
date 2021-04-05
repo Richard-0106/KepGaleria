@@ -31,7 +31,7 @@ article div{
     padding-left:50px;
 }
 section{
-    dispaly:grid;
+    display:grid;
     grid-template-columns:50px auto 50px;
 }
 h1{
