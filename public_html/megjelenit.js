@@ -73,14 +73,14 @@ function bal(){
    index -=1;
    if(index<0){
        index=keptomb.length-1;
-       
+   
    }
 }
 function jobb(){
      $("section div img")[0].src=keptomb[index].eleresiut;
     $("section div h3")[0].innerHTML=keptomb[index].cim;
    index +=1;
-    if(index==keptomb.length){
+    if(index===keptomb.length){
         index=0;
         
     }
